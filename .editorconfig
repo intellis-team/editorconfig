@@ -17,7 +17,7 @@ dotnet_diagnostic.VSTHRD200.severity = none
 # Disable warnings about .ConfigureAwait(false)
 dotnet_diagnostic.VSTHRD111.severity = none
 
-[*.yml, *.yaml]
+[*.{yml,yaml}]
 indent_size = 2
 indent_style = space
 
