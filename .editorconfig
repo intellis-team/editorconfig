@@ -1,0 +1,29 @@
+root = true
+
+[*]
+indent_style = tab
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.cs]
+csharp_style_namespace_declarations = file_scoped
+csharp_style_var_for_built_in_types = true
+csharp_style_var_when_type_is_apparent = true
+csharp_style_var_elsewhere = true
+
+dotnet_diagnostic.VSTHRD200.severity = none
+
+# Disable warnings about .ConfigureAwait(false)
+dotnet_diagnostic.VSTHRD111.severity = none
+
+[*.yml, *.yaml]
+indent_size = 2
+indent_style = space
+
+[*.md]
+indent_size = 2
+indent_style = space
+
+[*.ts]
+quote_type = single
