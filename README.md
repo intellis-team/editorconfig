@@ -8,7 +8,7 @@ However, where there is an option between tabs and spaces, we have settled on us
 
 Because we do consider it an accessbility concern, we ask all team members to comply with using tabs for indentation. All developers are free, however, to set the size of their tabs using their personal config in their editor of choice. Do not specify this in any shared configuration, such as an `.editorconfig` file within a project workspace.
 
-This only applies to left-hand indentation.  When using spacing for formatting &emdash; such as for comment alignment, ascii art etc &emdash; spaces should be used after indenting using tabs, and care should be taken to ensure all lines that need to be aligned are using the same indentation.
+This only applies to left-hand indentation.  When using spacing for formatting - such as for comment alignment, ascii art etc - spaces should be used after indenting using tabs, and care should be taken to ensure all lines that need to be aligned are using the same indentation.
 
 Generally though, we discourage any formatting that relies on a fixed width font, which would include such formatting as above.
 
@@ -46,6 +46,8 @@ Declaration:
 ``` toml
 csharp_style_namespace_declarations = file_scoped
 ```
+
+## Implicit variable declaration
 
 We prefer using var declarations where possible;
 
