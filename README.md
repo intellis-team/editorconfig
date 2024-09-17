@@ -79,7 +79,15 @@ As almost all of our internal dotnet code is written exclusively for use within 
 dotnet_diagnostic.VSTHRD111.severity = none
 ```
 
-###
+### High performance logging
+
+Generally, the trade-off between the development overhead vs the performance improvements of using the LoggerMessage pattern is not sufficient for us to adhere to it in our projects, so we disable warnings about it
+
+``` toml
+dotnet_diagnostic.CA1848.severity = none
+```
+
+This does not mean, of course, that the LoggerMessage pattern should not be used in scenarios where performance is important.
 
 ## Yaml formatting
 
